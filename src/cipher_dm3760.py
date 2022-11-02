@@ -6,23 +6,23 @@ def cipher(text, shift, encrypt=True):
     Parameters
     ----------
     text : str
-    A string.
+        A string.
     shift : int
-    An integer.
+        An integer.
     encrypt: bool
-    A boolean.
+        A boolean.
     
     Returns
     -------
     str
-    The newly encrypted string.
+        The newly encrypted string.
 
     Examples
     --------
-    from cipher_dm3760 import cipher_dm3760
-    text = "Good morning to you"
-    shift = 3
-    cipher_dm3760.cipher(cipher(text, string),shift,encrypt = False)
+    >>>from cipher_dm3760 import cipher_dm3760
+    >>>text = "Good morning to you"
+    >>>shift = 3
+    >>>cipher_dm3760.cipher(cipher(text, string),shift,encrypt = False)
     
     """
         
